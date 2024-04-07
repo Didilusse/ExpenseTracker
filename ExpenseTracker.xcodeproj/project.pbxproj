@@ -63,7 +63,6 @@
 			children = (
 				C58B144F2BC30A8E0022ADCA /* Model */,
 				C58B14502BC30A910022ADCA /* View */,
-				C58B144E2BC30A4F0022ADCA /* New Group */,
 				C513BDD52BC2E0B900F6793F /* ExpenseTrackerApp.swift */,
 				C513BDD72BC2E0B900F6793F /* ContentView.swift */,
 				C513BDD92BC2E0BA00F6793F /* Assets.xcassets */,
@@ -78,13 +77,6 @@
 				C513BDDC2BC2E0BA00F6793F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C58B144E2BC30A4F0022ADCA /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		C58B144F2BC30A8E0022ADCA /* Model */ = {

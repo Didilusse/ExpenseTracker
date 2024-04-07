@@ -6,13 +6,17 @@
 //
 
 import SwiftUI
+import SwiftData
 
-struct Category: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+@Model
+class Category{
+    var category: String
+    // Category Expenses
+    @Relationship(deleteRule: .cascade, inverse: \Expense.category)
+    var expenses : [Expense]?
+    
+    init(category: String) {
+        self.category = category
     }
 }
 
-#Preview {
-    Category()
-}

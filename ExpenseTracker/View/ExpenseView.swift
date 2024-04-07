@@ -6,13 +6,44 @@
 //
 
 import SwiftUI
+import SwiftData
 
-struct ExpenseView: View {
+struct ExpensesView: View {
+    // Grouped Expenses Properties
+    @Query(sort: [
+        SortDescriptor(\Expense.date, order: .reverse)
+    ], animation: .snappy) private var allExpenses: [Expense]
+    //Grouped Expenses
+    @State private var groupedExpenses: [GroupedExpense] = []
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            List{
+                
+            }
+            .navigationTitle("Expenses")
+            .overlay{
+                if allExpenses.isEmpty || groupedExpenses.isEmpty{
+                    ContentUnavailableView{
+                        Label("No Expenses", systemImage: "tray.fill")
+                    }
+                }
+            }
+            //new category add button
+            .toolbar{
+                ToolbarItem(placement: .topBarTrailing){
+                    Button{
+                        
+                    }label: {
+                        Image(systemName: "plus.circle.fill")
+                            .font(.title3)
+                    }
+                }
+            }
+        }
     }
 }
 
 #Preview {
-    ExpenseView()
+    ExpensesView()
 }
+
