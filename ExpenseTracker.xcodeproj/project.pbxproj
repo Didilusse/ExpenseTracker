@@ -17,6 +17,7 @@
 		C58B14562BC30AB80022ADCA /* GroupedExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B14552BC30AB80022ADCA /* GroupedExpense.swift */; };
 		C58B14582BC30AC30022ADCA /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B14572BC30AC30022ADCA /* CategoryView.swift */; };
 		C58B145A2BC30AD90022ADCA /* ExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B14592BC30AD90022ADCA /* ExpenseView.swift */; };
+		C5F9E1392BC492F200BF2120 /* ExpenseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5F9E1382BC492F200BF2120 /* ExpenseCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C58B14552BC30AB80022ADCA /* GroupedExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedExpense.swift; sourceTree = "<group>"; };
 		C58B14572BC30AC30022ADCA /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		C58B14592BC30AD90022ADCA /* ExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseView.swift; sourceTree = "<group>"; };
+		C5F9E1382BC492F200BF2120 /* ExpenseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				C58B14592BC30AD90022ADCA /* ExpenseView.swift */,
 				C58B14572BC30AC30022ADCA /* CategoryView.swift */,
 				C55A2DFA2BC45188000E6879 /* AddExpenseView.swift */,
+				C5F9E1382BC492F200BF2120 /* ExpenseCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				C58B14562BC30AB80022ADCA /* GroupedExpense.swift in Sources */,
 				C58B14582BC30AC30022ADCA /* CategoryView.swift in Sources */,
 				C55A2DFB2BC45188000E6879 /* AddExpenseView.swift in Sources */,
+				C5F9E1392BC492F200BF2120 /* ExpenseCardView.swift in Sources */,
 				C58B145A2BC30AD90022ADCA /* ExpenseView.swift in Sources */,
 				C513BDD82BC2E0B900F6793F /* ContentView.swift in Sources */,
 				C513BDD62BC2E0B900F6793F /* ExpenseTrackerApp.swift in Sources */,
