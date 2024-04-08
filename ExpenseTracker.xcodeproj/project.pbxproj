@@ -11,6 +11,7 @@
 		C513BDD82BC2E0B900F6793F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C513BDD72BC2E0B900F6793F /* ContentView.swift */; };
 		C513BDDA2BC2E0BA00F6793F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C513BDD92BC2E0BA00F6793F /* Assets.xcassets */; };
 		C513BDDD2BC2E0BA00F6793F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C513BDDC2BC2E0BA00F6793F /* Preview Assets.xcassets */; };
+		C55A2DFB2BC45188000E6879 /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55A2DFA2BC45188000E6879 /* AddExpenseView.swift */; };
 		C58B14522BC30AA00022ADCA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B14512BC30AA00022ADCA /* Category.swift */; };
 		C58B14542BC30AAD0022ADCA /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B14532BC30AAD0022ADCA /* Expense.swift */; };
 		C58B14562BC30AB80022ADCA /* GroupedExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58B14552BC30AB80022ADCA /* GroupedExpense.swift */; };
@@ -24,6 +25,7 @@
 		C513BDD72BC2E0B900F6793F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C513BDD92BC2E0BA00F6793F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C513BDDC2BC2E0BA00F6793F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C55A2DFA2BC45188000E6879 /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
 		C58B14512BC30AA00022ADCA /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		C58B14532BC30AAD0022ADCA /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		C58B14552BC30AB80022ADCA /* GroupedExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedExpense.swift; sourceTree = "<group>"; };
@@ -82,8 +84,8 @@
 		C58B144F2BC30A8E0022ADCA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C58B14512BC30AA00022ADCA /* Category.swift */,
 				C58B14532BC30AAD0022ADCA /* Expense.swift */,
+				C58B14512BC30AA00022ADCA /* Category.swift */,
 				C58B14552BC30AB80022ADCA /* GroupedExpense.swift */,
 			);
 			path = Model;
@@ -92,8 +94,9 @@
 		C58B14502BC30A910022ADCA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C58B14572BC30AC30022ADCA /* CategoryView.swift */,
 				C58B14592BC30AD90022ADCA /* ExpenseView.swift */,
+				C58B14572BC30AC30022ADCA /* CategoryView.swift */,
+				C55A2DFA2BC45188000E6879 /* AddExpenseView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				C58B14542BC30AAD0022ADCA /* Expense.swift in Sources */,
 				C58B14562BC30AB80022ADCA /* GroupedExpense.swift in Sources */,
 				C58B14582BC30AC30022ADCA /* CategoryView.swift in Sources */,
+				C55A2DFB2BC45188000E6879 /* AddExpenseView.swift in Sources */,
 				C58B145A2BC30AD90022ADCA /* ExpenseView.swift in Sources */,
 				C513BDD82BC2E0B900F6793F /* ContentView.swift in Sources */,
 				C513BDD62BC2E0B900F6793F /* ExpenseTrackerApp.swift in Sources */,
